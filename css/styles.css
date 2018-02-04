@@ -1,0 +1,99 @@
+/* color palette::after
+blue #071A52
+dark green #086972
+orange E59D28
+light green #A7FF83
+yellow: #F8FF83
+pink: #F86583
+*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    min-width: 320px;
+}
+
+#color-board {
+    display: flex;
+    flex-direction: column;
+}
+
+#color1 {
+    background: #071A52;
+    border: none;
+}
+
+#color2 {
+    background: #086972;
+    border: none;
+}
+
+#color3 {
+    background: #E59D28;
+    border: none;
+}
+
+#color4 {
+    background: #A7FF83;
+    border: none;
+}
+
+#color5 {
+    background: #F8FF83;
+    border: none;
+}
+
+#color6 {
+    background: #F86583;
+    border: none;
+}
+
+.square {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+#button-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.button {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.button-border {
+    width: 27px;
+    height: 27px;
+}
+
+.drenched {
+    background-color: black;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    color: red;
+    display: none;
+    font-size: 1rem;
+}
+
